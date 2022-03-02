@@ -1,0 +1,57 @@
+
+     
+    
+    <div class="card">
+        <div class="card-body">
+    
+      <section id="experiencia">
+        
+        <h2>Experiencia</h2>
+        <li *ngFor="let experiencia of experienciaList">
+        <article>
+            <img [src]="experiencia.img">
+        <h3>{{experiencia.trabajo}} </h3> 
+            <p> {{experiencia.puesto}}</p>
+            <p> {{experiencia.inicio}}- {{experiencia.fin}}</p>
+            
+        </article>
+     
+  </li>
+      </section>   
+      
+        </div>
+    </div>
+    
+
+
+
+    <div class="card">
+        <div class="card-body">
+    
+      <section id="educacion">
+        <h2>Educación</h2>
+
+
+
+    <article>
+        <img src="../assets/instituto-tecnologico.jpg">
+        <h3>Instituto Tecnológico Tucumán</h3>
+        <p>Auxiliar de Gestión Jurídica, 2019</p>
+    </article>
+    <article>
+        <img src="../assets/ingles.png">
+        <h3>Interaction</h3>
+        <p>Nivel Pre-Intermediate B1, 2017</p>
+    </article>
+    <article>
+        <img src="../assets/escuela.jpg">
+        <h3>Escuela Integral</h3>
+        <p>Economía y Gestión de las Organizaciones, 2009</p>
+    </article>
+    
+    
+    
+      </section>
+        </div>
+    </div>
+    
